@@ -1,0 +1,3 @@
+C:/Users/Иван/CLionProjects/BankApp/cmake-build-debug/CMakeFiles/BankApp.dir
+C:/Users/Иван/CLionProjects/BankApp/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Иван/CLionProjects/BankApp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
