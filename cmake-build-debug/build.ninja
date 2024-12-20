@@ -61,6 +61,24 @@ build CMakeFiles/BankApp.dir/main.cpp.obj: CXX_COMPILER__BankApp_unscanned_Debug
   OBJECT_DIR = CMakeFiles\BankApp.dir
   OBJECT_FILE_DIR = CMakeFiles\BankApp.dir
 
+build CMakeFiles/BankApp.dir/Registration.cpp.obj: CXX_COMPILER__BankApp_unscanned_Debug C$:/Users/Иван/CLionProjects/BankApp/Registration.cpp || cmake_object_order_depends_target_BankApp
+  DEP_FILE = CMakeFiles\BankApp.dir\Registration.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\BankApp.dir
+  OBJECT_FILE_DIR = CMakeFiles\BankApp.dir
+
+build CMakeFiles/BankApp.dir/account/Account.cpp.obj: CXX_COMPILER__BankApp_unscanned_Debug C$:/Users/Иван/CLionProjects/BankApp/account/Account.cpp || cmake_object_order_depends_target_BankApp
+  DEP_FILE = CMakeFiles\BankApp.dir\account\Account.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\BankApp.dir
+  OBJECT_FILE_DIR = CMakeFiles\BankApp.dir\account
+
+build CMakeFiles/BankApp.dir/utils/DateUtils.cpp.obj: CXX_COMPILER__BankApp_unscanned_Debug C$:/Users/Иван/CLionProjects/BankApp/utils/DateUtils.cpp || cmake_object_order_depends_target_BankApp
+  DEP_FILE = CMakeFiles\BankApp.dir\utils\DateUtils.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\BankApp.dir
+  OBJECT_FILE_DIR = CMakeFiles\BankApp.dir\utils
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target BankApp
@@ -69,7 +87,7 @@ build CMakeFiles/BankApp.dir/main.cpp.obj: CXX_COMPILER__BankApp_unscanned_Debug
 #############################################
 # Link the executable BankApp.exe
 
-build BankApp.exe: CXX_EXECUTABLE_LINKER__BankApp_Debug CMakeFiles/BankApp.dir/User.cpp.obj CMakeFiles/BankApp.dir/main.cpp.obj
+build BankApp.exe: CXX_EXECUTABLE_LINKER__BankApp_Debug CMakeFiles/BankApp.dir/User.cpp.obj CMakeFiles/BankApp.dir/main.cpp.obj CMakeFiles/BankApp.dir/Registration.cpp.obj CMakeFiles/BankApp.dir/account/Account.cpp.obj CMakeFiles/BankApp.dir/utils/DateUtils.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\BankApp.dir
